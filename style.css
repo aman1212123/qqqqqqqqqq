@@ -1,0 +1,181 @@
+body{
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+.container{
+  margin: auto;
+  width: 1150px; 
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.row{
+  display: flex; 
+   flex-wrap: wrap;
+}
+.w-100{
+  width: 100%;
+}
+.w-50{
+  width: 50%;
+}
+.top{
+background-color: #0f2f44; padding: 20px;
+}
+.top .row{
+justify-content: space-between;
+}
+.top p{
+  font-size: 16px;
+}
+
+.nav div .row{
+  justify-content: space-between; align-items: center;
+}
+.nav ul li a{
+  padding: 37px 19px;
+ display: inline-block; 
+}
+.nav ul li button{
+width: 30px; height: 30px; border-radius: 50%;
+text-align: center; margin: 0 10px;
+}
+
+.one{
+  background: url(Bizzency.jpg);
+  ; height: 600px; background-size: cover;
+  background-position: center;
+}
+
+.h{
+ margin-top: 150px; margin-left: 150px;
+}
+.one button{
+  font-size: 18px; background-color: #8383bf;
+  border-radius: 5px;  height: 46px;
+}
+ 
+.two{
+  height: 700px;
+}
+
+
+.two img{
+  width: 50%; height: 500px;
+   margin-top: 100px; margin-left: 50px;
+}
+
+.side{
+  margin-left: 80px; margin-top: 150px;
+}
+
+.new{ 
+ margin-left: 20px;  background-color: #8383bf;
+ border-radius: 7px; padding: 5px;
+}
+
+#skill.skill-img img{
+  margin-left: -50px; 
+}
+.skill-info{
+  text-align: right; 
+}
+
+.skill-item-info{
+  width: 85%; 
+}
+.skill-item-logo{
+  width: 15%;
+}
+.track{
+  width: 100%; background-color: #ddd; height: 10px;
+}
+.percent{
+  width: 90%;
+  height: 100%; background-color: red; margin-left: auto;
+  position: relative;
+}
+span{ 
+  position: absolute; left: 0; top: -20px;
+}
+.ps{
+  margin-top: 40px;
+}
+
+.tittle{
+  margin-top: 150px; margin-left: 500px; margin-bottom: 100px;
+}
+#service{
+  height: 600px;
+}
+#service .row{
+  justify-content: space-between;
+}
+
+.service-item{
+  width: 32%;  background-color: rgb(244, 212, 212); 
+  align-items: center; position: relative;
+}
+
+.service-image{
+ width: 20%;
+}
+
+.service-image img{
+  display: block; margin: auto;
+}
+.info{
+  width: 70%;
+}
+
+.overlay{
+  position: absolute;
+  inset: 0; background-color: #8383bf; opacity: 0; 
+}
+.service-item:hover .overlay{
+  opacity: 1;
+}
+.margin1,.margin2{
+  margin-top: 40px; margin-left: 150px;
+}
+
+.imgg{
+   display: flex; object-fit: cover; width: 100%;
+}
+
+.cat{
+  background-color: rgb(208, 193, 202); margin-right: 14px;
+}
+.lion{
+  background-color: rgb(208, 193, 202); margin-right: 14px;
+}
+.lion:hover{
+  background-color: #2626b0;
+}
+
+
+
+
+.show{
+ width: 100px; height: 30px; margin-top: -0px; margin-left: 50px; background-color: rgb(26, 6, 75); color: red; opacity: 0;
+}
+.effect:hover .show{
+  opacity: 1;
+}
+
+.qq{
+ height: 100px;
+}
+
+
+
+
+.divide{
+  width: 24%;
+}
+
+.warp img{
+  height: 50px;
+}
